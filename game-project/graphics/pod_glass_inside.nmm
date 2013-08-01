@@ -1,0 +1,33 @@
+<Version=1.0>
+<Material=
+	<Specular=
+		<X=0.000000>
+		<Y=0.000000>
+		<Z=0.000000>
+	>
+	<Self=
+		<X=0.333333>
+		<Y=0.509804>
+		<Z=0.588235>
+	>
+	<Ambient=
+		<X=0.588235>
+		<Y=0.450980>
+		<Z=0.356863>
+	>
+	<Glossiness=0.010000>
+	<Opacity=0.250000>
+	<AlphaThreshold=0.100000>
+	<PhysicMaterial=
+		<StaticFriction=0.750000>
+		<DynamicFriction=0.500000>
+		<Restitution=0.100000>
+	>
+	<RenderMask=
+		<Smoothing>
+		<NormalMapTangent>
+		<DoubleSided>
+	>
+	<BlendOp="Alpha">
+	<Shader="graphics/pod_glass_inside-shader-tree.nsa">
+>

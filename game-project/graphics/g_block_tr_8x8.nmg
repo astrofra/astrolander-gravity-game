@@ -1,0 +1,39 @@
+<NML=1.0>
+<Geometry=
+	<RenderWord>
+	<Vertex=
+		<Count=6>
+		<Data==73:72@
+%)©j+**k+**ê%)©j+**k'))i**ªjÞ:û^***ê**ªêýåµß***ê**ªjÐ¡A_***j**ªê
+„²’ß***j>
+	>
+	<Polygon=
+		<Count=8>
+		<BindingCount=24>
+		<Data==162:160@
+-***/***+***********-*******-***/*******-***/***-***,*******-***
+,***.***/*******-***,***-***********-***/***.***+*******-***,***
+****+*******-***+***.***,*******>
+	>
+	<PNormal=
+		<Count=8>
+		<Data==24:24@
+Ñƒ*Ñƒ**«**«***«**©©**©**>
+	>
+	<VNormal=
+		<Count=24>
+		<Data==73:72@
+Ñƒ*Ñƒ*Ñƒ*Ñƒ*Ñƒ*Ñƒ**«**«**«**«**«**«***«**«**«**©**©**©©**©**©**©
+**©**©**>
+	>
+	<UV=
+		<Count=1>
+		<Data==194:192@
+°	„hMCi“ $gMCi“ $gy™7i“ $gy™7i°	„hy™7i°	„hMCiÅi‡hMCiÅi‡hy™7i
+ ›Çhy™7i ›Çhy™7i ›ÇhMCiÅi‡hMCi…vgbCi¨t‚hbCi…vgvy[i€\†hbCi
+~\†hvy[i3F'gvy[i®	„ht6i“ $gt6i“ $gêL+i“ $gêL+i®	„hêL+i®	„ht6i>
+	>
+<Materials=
+		<MaterialRef="graphics/blocks.nmm">
+	>
+>

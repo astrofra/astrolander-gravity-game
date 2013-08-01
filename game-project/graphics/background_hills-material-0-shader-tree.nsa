@@ -1,0 +1,57 @@
+<Version=1.0>
+<ShaderMap=
+	<Map=
+		<Entry=
+			<Type="Geometry Normal">
+		>
+		<Entry=
+			<Type="Material Parameter">
+			<Param=
+				<Param=0>
+			>
+		>
+		<Entry=
+			<Type="Material Parameter">
+			<Param=
+				<Param=1>
+			>
+		>
+		<Entry=
+			<Type="Material Parameter">
+			<Param=
+				<Param=4>
+			>
+		>
+		<Entry=
+			<Type="Material Parameter">
+			<Param=
+				<Param=2>
+			>
+		>
+	>
+	<Normal=
+		<Block=
+			<Index=0>
+		>
+	>
+	<Diffuse=
+		<Block=
+			<Index=1>
+		>
+	>
+	<Specular=
+		<Block=
+			<Index=2>
+		>
+	>
+	<Glossiness=
+		<Block=
+			<Index=3>
+		>
+	>
+	<Constant=
+		<Block=
+			<Index=4>
+		>
+	>
+>

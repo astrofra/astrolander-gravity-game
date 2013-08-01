@@ -1,0 +1,26 @@
+<Version=1.0>
+<Material=
+	<AlphaThreshold=0.800000>
+	<PhysicMaterial=
+		<StaticFriction=0.750000>
+		<DynamicFriction=0.500000>
+		<Restitution=0.100000>
+	>
+	<RenderMask=
+		<Smoothing>
+		<NormalMapTangent>
+		<AlphaTest>
+	>
+	<Shader="graphics/clouds-shader-tree.nsa">
+	<TextureStage=
+		<Index=0>
+		<Texture="graphics/clouds_color.png">
+		<UV=0>
+	>
+	<TextureStage=
+		<Index=1>
+		<Texture="graphics/clouds_color.png">
+		<UV=0>
+		<Channel="Opacity">
+	>
+>

@@ -1,0 +1,19 @@
+<Version=1.0>
+<Collect=
+	<Entry=
+		<Path="$(Project)">
+		<HintUI=False>
+		<HintRaw=False>
+	>
+	<Entry=
+		<Path="$(Project)/ui">
+		<HintUI=True>
+		<HintRaw=False>
+	>
+>
+<Exclude=
+	<Entry=".svn; .cvs; .git">
+	<Entry=".reserved">
+	<Entry="$(Project)/docs">
+	<Entry="$(Project)/levels_backup">
+>

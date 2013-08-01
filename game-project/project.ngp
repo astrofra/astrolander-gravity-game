@@ -1,0 +1,13 @@
+<Version=1.0>
+<Environment=
+	<Name="Cosmic Lander Game">
+	<Authors="Astrofra">
+	<Description="Cosmic Lander Game">
+	<Company="Copyright 2011">
+	<ScriptUnit=
+		<ScriptPath="scripts/project.nut">
+		<Class="ProjectHandler">
+	>
+	<Include>
+	<SearchPaths>
+>

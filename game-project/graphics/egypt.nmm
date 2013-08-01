@@ -1,0 +1,25 @@
+<Version=1.0>
+<Material=
+	<Specular=
+		<X=0.900000>
+		<Y=0.900000>
+		<Z=0.900000>
+	>
+	<Glossiness=0.031250>
+	<AlphaThreshold=0.100000>
+	<PhysicMaterial=
+		<StaticFriction=0.750000>
+		<DynamicFriction=0.500000>
+		<Restitution=0.100000>
+	>
+	<RenderMask=
+		<Smoothing>
+		<NormalMapTangent>
+	>
+	<Shader="shaders/simple_diffuse.nsa">
+	<TextureStage=
+		<Index=0>
+		<Texture="graphics/egypt_column_diffuse.jpg">
+		<UV=0>
+	>
+>
