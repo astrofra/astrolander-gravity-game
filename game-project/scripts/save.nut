@@ -107,7 +107,7 @@ class	SaveGame
 		if(IsTouchPlatform())
 			save_game_filename = "@app/cosmic_lander_save.nml"
 		else
-			save_game_filename = PlatformGetUserPath() + "/cosmic_lander_save.nml"
+			save_game_filename = PlatformGetUserPath() + "/CosmicLander/cosmic_lander_save.nml"
 
 		return	save_game_filename
 	}

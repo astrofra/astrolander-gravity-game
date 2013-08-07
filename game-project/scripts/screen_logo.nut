@@ -40,7 +40,11 @@ class	LogoScreen
 	{
 		ui = SceneGetUI(scene)
 		CreateOpaqueScreen(ui)
-		update_function = ShowOwlLogo //ShowAstrofraLogo
+		/*!
+		
+		*/
+		//update_function = ShowOwlLogo //ShowAstrofraLogo
+		update_function = ShowAstrofraLogo
 	}
 
 	function	ShowAstrofraLogo(scene)

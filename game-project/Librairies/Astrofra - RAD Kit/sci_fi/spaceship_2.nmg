@@ -1,8 +1,5 @@
-<NML=1.0>
+<Version=1.0>
 <Geometry=
-	<RenderWord=
-		<Lit>
-	>
 	<Vertex=
 		<Count=94>
 		<Data==1149:1128@
@@ -91,15 +88,15 @@ Eé‘HiCBê*Eéh¨iJºAê*Eih¨iJºAê*´dé7(i;Ý@ê*´di7(i;Ý@êã¨¸i.Ó
 	<PNormal=
 		<Count=184>
 		<Data==563:552@
-¡M?¨2¨2*¨2*rÄÜ)=}]¸?X¶=}X¶,W´**«-¨*-¨**¨**¨*;j•?Xž*¬9Fo*«**«
-**¬**¬**­?*­?*¬'*¬'*v*v*ÓÏ*ÓÏ*¬.*¬.*¬(*¬(¬2³M?¬2*¬2*ÇÜ)âÄX¶
-]¸X¶**«(W´'¨*'¨**¨**¨*Xžj•$®@)c›*«**«**¬**¬**¨5*¨5*¦C*¦C*¨**
-¨**¨3*¨3.²*±¨$*¨$**£.¢ËÖ*ËÖ*¬$*¬$**±&²‰Ö*‰Ö*&¢*£*²*²*š
-ñ*šñ*xÇ*xÇ*Àå*Àå§0¨++*6¬*6¬*­*­¬.¬**­0¬++YpÌBuÇvèÞ‡èôW¹\»
-=MˆÛÄâßáã+"¬FÐÖLó½bRÀ_L½õL½òRÀøãÎÝÉ¨**¨.ö(~‡Ö‡·ö(zV˜!h[º
+¢M?¨2¨2*¨2*rÄÜ)=}]¸?X¶=}X¶,W´**«-¨*-¨**©**©*;j•?Xž*¬9Fo*«**«
+**«**«**­?*­?*¬'*¬'*v*v*ÓÏ*ÓÏ*¬.*¬.*¬(*¬(¬2²M?¬2*¬2*ÇÜ)âÄX¶
+]¸X¶**«(W´'¨*'¨**©**©*Xžj•$®@)c›*«**«**«**«**¨5*¨5*¦C*¦C*©**
+©**¨3*¨3.²*±¨$*¨$**£.¢ËÖ*ËÖ*¬$*¬$**±&²‰Ö*‰Ö*&¢*£*²*²*›
+ñ*›ñ*xÇ*xÇ*Àå*Àå§0¨++*6¬*6¬*­*­¬.«**­0¬++YpÌBuÇvèÞ‡èôW¹\»
+=MˆÛÄâßáã+"¬FÐÖLó½bRÀ_L½õL½òRÀøãÎÝÉ©**¨.ö(~‡Ö‡·ö(zV˜!h[º
 ùº¼!hÚVÍ-Í-vzgu_ƒ€FƒF€†*‚…*Zµ+f»+7‘r8u>t:–i€Î1k¾4*²*²é
-¿6ÕÍ.ÕÍ-ÕÍ-*¡*¡á~fÒra*^*^ÈâçÐðpÕì‹Þúµ,î»*î»*ÑÐ)‚Ð*e»)ÑFÑ€
-FÒ…*Ô†*u‘q—htƒƒ3Š|1Ê|2Ñƒ2xŒ7‚„6Ò„7ÛŒ6>
+¾6ÕÍ.ÕÍ-ÕÍ-*¢*¢á~fÒra*^*^ÈâçÐðpÕì‹Þúµ,î»*î»*ÑÐ)‚Ð*eº)ÑFÑ€
+FÒ…*Ô†*u’q—htƒƒ3Š|1Ê|2Ñƒ2xŒ7‚„6Ò„7ÛŒ6>
 	>
 	<VNormal=
 		<Count=552>
@@ -240,197 +237,8 @@ iƒIÒh=M[Eiÿ/iŸvÒhwEi¥iŸvÒhwEi¥i ë­h8ôh¡—[ijj®h;h|\i**
 ßg±»®g**ªi‡ßg±»®g**ªi‡ßg±»®g**ªi‡ßg±»®g**ªi‡ßg±»®g>
 	>
 	<Materials=
-		<Material=
-			<Id="blank">
-			<Specular=
-				<X=0.000000>
-				<Y=0.000000>
-				<Z=0.000000>
-			>
-			<Glossiness=0.100000>
-			<AlphaThreshold=0.100000>
-			<PhysicMaterial=
-				<StaticFriction=0.750000>
-				<DynamicFriction=0.500000>
-				<Restitution=0.100000>
-			>
-			<RenderMask=
-				<Smoothing>
-				<VertexColor>
-			>
-			<ShaderMap=
-				<Pos=
-					<X=0.000000>
-					<Y=0.000000>
-				>
-				<Map=
-					<Entry=
-						<Type="Geometry Normal">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param>
-					>
-					<Entry=
-						<Type="Multiply">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param>
-					>
-					<Entry=
-						<Type="Material Parameter">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param=
-							<Param=0>
-						>
-					>
-					<Entry=
-						<Type="Build">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param=
-							<Build="xyz1">
-						>
-					>
-					<Entry=
-						<Type="Geometry RGB">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param>
-					>
-					<Entry=
-						<Type="Material Parameter">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param=
-							<Param=1>
-						>
-					>
-					<Entry=
-						<Type="Material Parameter">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param=
-							<Param=4>
-						>
-					>
-					<Entry=
-						<Type="Material Parameter">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param=
-							<Param=2>
-						>
-					>
-					<Entry=
-						<Type="Multiply">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param>
-					>
-					<Entry=
-						<Type="Material Parameter">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param=
-							<Param=5>
-						>
-					>
-					<Entry=
-						<Type="Swizzle">
-						<Pos=
-							<X=0.000000>
-							<Y=0.000000>
-						>
-						<Param=
-							<Swizzle="wnnn">
-						>
-					>
-				>
-				<Normal=
-					<Block=
-						<Index=0>
-					>
-				>
-				<Diffuse=
-					<Block=
-						<Index=1>
-						<Input=
-							<Block=
-								<Index=2>
-							>
-							<Block=
-								<Index=3>
-								<Input=
-									<Block=
-										<Index=4>
-									>
-									<Block=
-										<Index=4>
-									>
-									<Block=
-										<Index=4>
-									>
-									<None>
-								>
-							>
-						>
-					>
-				>
-				<Specular=
-					<Block=
-						<Index=5>
-					>
-				>
-				<Glossiness=
-					<Block=
-						<Index=6>
-					>
-				>
-				<Constant=
-					<Block=
-						<Index=7>
-					>
-				>
-				<Opacity=
-					<Block=
-						<Index=8>
-						<Input=
-							<Block=
-								<Index=9>
-							>
-							<Block=
-								<Index=10>
-								<Input=
-									<Block=
-										<Index=4>
-									>
-								>
-							>
-						>
-					>
-				>
-			>
+		<MaterialRefEx=
+			<Name="Librairies/Astrofra - RAD Kit/sci_fi/spaceship_2-material-0.nmm">
 		>
 	>
 >
