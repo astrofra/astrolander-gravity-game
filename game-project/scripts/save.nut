@@ -103,12 +103,16 @@ class	SaveGame
 	function	GetSaveFilename()
 	{
 		local	save_game_filename
-
+		
 		if(IsTouchPlatform())
 			save_game_filename = "@app/cosmic_lander_save.nml"
 		else
-			save_game_filename = PlatformGetUserPath() + "/CosmicLander/cosmic_lander_save.nml"
-
+		{
+			local target_path = PlatformGetUserPath()
+			local _mount_result = SystemMountLocalPath("@saveDirectory/", target_path)
+			save_game_filename = "@saveDirectory/cosmic_lander_save.nml"
+		}
+		
 		return	save_game_filename
 	}
 
@@ -160,6 +164,11 @@ class	SaveGame
 						g_current_language = data_table.current_language
 				}
 			}
+		}
+		else
+		{
+			_file = MetafileNew()
+			MetafileSave(_file, GetSaveFilename())
 		}
 
 		return	data_table
