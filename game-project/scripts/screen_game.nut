@@ -111,7 +111,8 @@ class	LevelHandler	extends	SceneWithThreadHandler
 		if (!paused)
 			return
 		paused	=	false
-		EngineSetClockScale(g_engine, g_clock_scale)
+//		EngineSetClockScale(g_engine, g_clock_scale)
+		SceneSetFixedDeltaFrame(g_scene, -1)
 		game_ui.HidePauseWindow()
 	}
 
@@ -122,7 +123,8 @@ class	LevelHandler	extends	SceneWithThreadHandler
 		if (!paused)
 			return
 		paused	=	false
-		EngineSetClockScale(g_engine, g_clock_scale)
+//		EngineSetClockScale(g_engine, g_clock_scale)
+		SceneSetFixedDeltaFrame(g_scene, -1)
 		game_ui.HidePauseWindow()
 		//ExitGame(scene)
 		ExitToTitleScreen(scene)
@@ -134,7 +136,10 @@ class	LevelHandler	extends	SceneWithThreadHandler
 	{
 		if (paused)
 			if (game_ui.IsCommandListDone())
-				EngineSetClockScale(g_engine, 0.0)
+			{
+//				EngineSetClockScale(g_engine, 0.0)
+				SceneSetFixedDeltaFrame(g_scene, 1.0 / 10000.0)
+			}
 	}
 
 	function	OnRenderUI(scene)
@@ -428,7 +433,8 @@ class	LevelHandler	extends	SceneWithThreadHandler
 
 		print("LevelHandler::OnSetup() g_clock_scale = " + g_clock_scale)
 
-		EngineSetClockScale(g_engine, g_clock_scale)
+//		EngineSetClockScale(g_engine, g_clock_scale)
+		SceneSetFixedDeltaFrame(g_scene, -1)
 		SceneSetPhysicFrequency(scene, 60.0)
 	}
 
@@ -501,7 +507,8 @@ class	LevelHandler	extends	SceneWithThreadHandler
 		if (game.player_data.current_level > 3)
 			GlobalSetPlayerGuid()
 		GlobalSaveGame()
-		EngineSetClockScale(g_engine, 1.0)
+//		EngineSetClockScale(g_engine, 1.0)
+		SceneSetFixedDeltaFrame(g_scene, -1)
 		ProjectGetScriptInstance(g_project).ProjectGotoScene("levels/screen_level_end.nms")
 	}
 
@@ -510,7 +517,8 @@ class	LevelHandler	extends	SceneWithThreadHandler
 	//------------------------
 	{
 		print("LevelHandler::ExitGame()")
-		EngineSetClockScale(g_engine, 1.0)
+//		EngineSetClockScale(g_engine, 1.0)
+		SceneSetFixedDeltaFrame(g_scene, -1)
 		StopLevelMusic()
 		GlobalAudioHandler.Delete()
 		ProjectGetScriptInstance(g_project).ProjectGotoScene("levels/screen_game_over.nms")
@@ -521,7 +529,8 @@ class	LevelHandler	extends	SceneWithThreadHandler
 	//------------------------
 	{
 		print("LevelHandler::ExitToTitleScreen()")
-		EngineSetClockScale(g_engine, 1.0)
+//		EngineSetClockScale(g_engine, 1.0)
+		SceneSetFixedDeltaFrame(g_scene, -1)
 		StopLevelMusic()
 		GlobalAudioHandler.Delete()
 		ProjectGetScriptInstance(g_project).ProjectGotoScene("levels/screen_title.nms")
@@ -535,7 +544,8 @@ class	LevelHandler	extends	SceneWithThreadHandler
 		if (!paused)
 			return
 		paused	=	false
-		EngineSetClockScale(g_engine, g_clock_scale)
+//		EngineSetClockScale(g_engine, g_clock_scale)
+		SceneSetFixedDeltaFrame(g_scene, -1)
 		game_ui.HidePauseWindow()
 		StopLevelMusic()
 		ProjectGetScriptInstance(g_project).ProjectGotoScene("levels/screen_game_restart.nms")
