@@ -1,0 +1,2011 @@
+{
+	"Scene": {
+		"Components": {
+			"gs::core::Environment": {}
+		},
+		"Nodes": {
+			"Node": {
+				"Uid": 1,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 114.36110000000001,
+							"y": -11.737,
+							"z": 0.10010000000000001
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": -0.0,
+							"z": 3.1416
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 2,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 68.5,
+							"y": -25.5,
+							"z": -0.7813
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 3,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 36.342,
+							"y": 22.2271,
+							"z": -1.0092
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 4,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 5.0581000000000009,
+							"y": 21.911,
+							"z": 0.10010000000000001
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 5,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 68.2201,
+							"y": 21.911,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 6,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 84.015,
+							"y": 5.9781,
+							"z": 4.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 7,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 99.9811,
+							"y": -25.201,
+							"z": -0.3377
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 8,
+				"Name": "g_block_16x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -13.996,
+							"y": 5.9026000000000009,
+							"z": -1.6563
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 9,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 35.167,
+							"y": 12.256300000000002,
+							"z": 0.5389
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 10,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 23.064,
+							"y": 13.694700000000001,
+							"z": 0.7524000000000001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 11,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 114.36110000000001,
+							"y": 20.151,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 3.1416
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 12,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 102.658,
+							"y": 46.967,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": 0.0212,
+							"y": -0.0004,
+							"z": 1.5735000000000002
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 13,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 110.683,
+							"y": 40.0,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 14,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 93.8991,
+							"y": 17.9709,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 15,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 114.9966,
+							"y": -31.7188,
+							"z": 0.10010000000000001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 16,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 35.3921,
+							"y": 29.9421,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 17,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 52.634,
+							"y": 29.954,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": -3.1180000000000005,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 18,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 70.741,
+							"y": 46.967,
+							"z": -0.7524000000000001
+						},
+						"Rotation": {
+							"x": 0.0212,
+							"y": -0.0004,
+							"z": 1.5735000000000002
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 19,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 41.0,
+							"y": -9.5,
+							"z": -0.013000000000000002
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": -3.1180000000000005,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 20,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 67.967,
+							"y": 9.9834,
+							"z": 0.10010000000000001
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5682
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 21,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 39.695,
+							"y": 46.967,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": 0.0212,
+							"y": -0.0004,
+							"z": 1.5735000000000002
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 22,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 7.783,
+							"y": 46.967,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": 0.0212,
+							"y": -0.0004,
+							"z": 1.5735000000000002
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 23,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 77.03,
+							"y": 40.6801,
+							"z": 1.0863
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.7679
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 24,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -25.552,
+							"y": 13.450000000000001,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": 0.0175,
+							"y": 0.0,
+							"z": 3.1339
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 25,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -26.010900000000004,
+							"y": 33.107,
+							"z": 0.050100000000000009
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 26,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -26.0107,
+							"y": 40.592600000000008,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 27,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -23.9832,
+							"y": 46.5733,
+							"z": 2.278
+						},
+						"Rotation": {
+							"x": 0.0175,
+							"y": 0.0175,
+							"z": -1.5617
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 28,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -16.0762,
+							"y": 46.6413,
+							"z": 2.278
+						},
+						"Rotation": {
+							"x": 0.0175,
+							"y": 0.0175,
+							"z": -1.5617
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 29,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -8.3592,
+							"y": 46.7153,
+							"z": 2.378
+						},
+						"Rotation": {
+							"x": 0.0175,
+							"y": 0.0175,
+							"z": -1.5617
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 30,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 94.35220000000001,
+							"y": 22.642100000000004,
+							"z": 0.6563
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 31,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -20.1334,
+							"y": 44.962500000000009,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -3.1337
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 32,
+				"Name": "g_block_2x4",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 64.6759,
+							"y": -15.5774,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x4.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 33,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 99.00030000000001,
+							"y": -3.0352,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 34,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 32.6392,
+							"y": -0.6585000000000001,
+							"z": 0.0001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 35,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 5.5,
+							"y": -9.5,
+							"z": -0.7157
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 36,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 99.00030000000001,
+							"y": -5.0509,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 37,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 107.2266,
+							"y": -16.3778,
+							"z": -0.5438000000000001
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.12300000000000001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 38,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 109.3502,
+							"y": -14.5092,
+							"z": 0.6831
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 39,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 109.3502,
+							"y": -12.6041,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.2121
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 40,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 109.3502,
+							"y": -10.8594,
+							"z": 0.6831
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 41,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 109.3502,
+							"y": -16.5069,
+							"z": -0.5438000000000001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 42,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 109.3502,
+							"y": -9.1532,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.1335
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 43,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 45.0,
+							"y": -13.505,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 44,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 29.0316,
+							"y": -13.504700000000002,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 45,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 29.0,
+							"y": -5.114,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 46,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 57.0,
+							"y": -17.5,
+							"z": 0.25
+						},
+						"Rotation": {
+							"x": 0.0,
+							"y": 3.1416,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 47,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 101.03030000000001,
+							"y": 8.3343,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 48,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 109.3289,
+							"y": 10.7859,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 49,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 109.34660000000001,
+							"y": 12.8002,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 50,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 39.5,
+							"y": -25.5,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 51,
+				"Name": "g_block_16x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 16.5,
+							"y": -25.5,
+							"z": 0.10010000000000001
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 52,
+				"Name": "g_block_tr_4x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -16.5686,
+							"y": 24.3964,
+							"z": 5.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5839
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_4x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 53,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -14.482800000000001,
+							"y": -2.0282,
+							"z": -0.0022
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": -3.1180000000000005,
+							"z": 3.1416
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 54,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 4.5,
+							"y": -17.5,
+							"z": 0.48810000000000006
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": -3.1180000000000005,
+							"z": 3.1416
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 55,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -20.868100000000003,
+							"y": 26.279,
+							"z": 0.8440000000000001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 56,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -11.666500000000001,
+							"y": 26.279,
+							"z": 0.8440000000000001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 57,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -20.868100000000003,
+							"y": 16.8396,
+							"z": 0.8440000000000001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 58,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -11.666500000000001,
+							"y": 16.8396,
+							"z": 0.8440000000000001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 59,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 20.069100000000004,
+							"y": 12.9166,
+							"z": 0.5461
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 60,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 15.5487,
+							"y": 12.9166,
+							"z": 0.5461
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 61,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 32.2072,
+							"y": 13.3802,
+							"z": 0.5461
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 62,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 39.4026,
+							"y": 13.3802,
+							"z": 0.5461
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 63,
+				"Name": "g_block_2x2",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 56.5811,
+							"y": 12.9166,
+							"z": 0.5461
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x2.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 64,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 33.865300000000008,
+							"y": -9.8697,
+							"z": -2.6673
+						},
+						"Rotation": {
+							"x": 1.5708,
+							"y": 3.1416,
+							"z": -1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 65,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 17.813000000000004,
+							"y": -9.8697,
+							"z": -2.6673
+						},
+						"Rotation": {
+							"x": 1.5708,
+							"y": -3.1415,
+							"z": -1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 66,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 24.239800000000004,
+							"y": -0.6585000000000001,
+							"z": 0.0001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 67,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 26.6611,
+							"y": -0.6585000000000001,
+							"z": 0.0001
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 68,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 94.35220000000001,
+							"y": 22.642100000000004,
+							"z": 4.6649
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 69,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 82.1495,
+							"y": 22.642100000000004,
+							"z": 4.0337000000000009
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 70,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 65.60210000000001,
+							"y": 42.869800000000008,
+							"z": 1.0863
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.7679
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 71,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 88.81620000000001,
+							"y": 42.7742,
+							"z": 1.0863
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.7679
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 72,
+				"Name": "g_block_tr_8x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 108.4349,
+							"y": 34.7656,
+							"z": 1.0863
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -0.7679
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 73,
+				"Name": "g_block_2x4",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 67.4786,
+							"y": -15.307400000000002,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 0.4975
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x4.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 74,
+				"Name": "g_block_2x4",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 71.2594,
+							"y": -15.894300000000002,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.241
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_2x4.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 75,
+				"Name": "g_block_tr_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 122.37270000000001,
+							"y": -19.588800000000004,
+							"z": 0.0001
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 3.1416,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 76,
+				"Name": "g_block_tr_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 118.36760000000001,
+							"y": -24.477600000000004,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 3.1416,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 77,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 125.76480000000001,
+							"y": -22.0003,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 78,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 123.83290000000001,
+							"y": -22.0003,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 79,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 121.86380000000001,
+							"y": -22.0003,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 80,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 120.86980000000001,
+							"y": -22.0003,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 81,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 125.76480000000001,
+							"y": -20.0976,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 82,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 124.78760000000001,
+							"y": -20.0976,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 83,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 123.83290000000001,
+							"y": -20.0976,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 84,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 122.876,
+							"y": -20.0976,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 85,
+				"Name": "g_block_1x1",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 120.86980000000001,
+							"y": -20.0976,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_1x1.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 86,
+				"Name": "g_block_tr_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 116.79190000000001,
+							"y": 51.0195,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 3.1416,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 87,
+				"Name": "g_block_tr_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 106.4945,
+							"y": 55.0078,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 3.1416,
+							"z": -1.5707
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 88,
+				"Name": "g_block_tr_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -14.854600000000002,
+							"y": 52.620900000000009,
+							"z": 1.9467
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 3.1416,
+							"z": -1.5707
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 89,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 76.2779,
+							"y": 9.9573,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 90,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 95.8852,
+							"y": 5.9759,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 91,
+				"Name": "g_block_8x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 83.8442,
+							"y": 1.9622000000000002,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x16.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 92,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 73.8006,
+							"y": 1.9632,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 93,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 69.7783,
+							"y": 1.9632,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			},
+			"Node": {
+				"Uid": 94,
+				"Name": "g_block_16x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -13.996,
+							"y": 5.9026000000000009,
+							"z": 2.5844
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {},
+					"gs::core::RigidBody": {
+						"Restitution": 0.5
+					}
+				}
+			}
+		},
+		"NodeHierarchy": {},
+		"Skeletons": {},
+		"State": {}
+	}
+}
