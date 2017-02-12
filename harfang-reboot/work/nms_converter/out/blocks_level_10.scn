@@ -20,6 +20,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -44,6 +54,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -68,6 +88,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -92,6 +122,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -116,6 +156,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -140,6 +190,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -159,6 +219,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -178,6 +248,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -197,6 +277,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -216,6 +306,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -240,6 +340,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -259,6 +369,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -278,6 +398,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -302,6 +432,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -326,6 +466,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -350,6 +500,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -369,6 +529,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -388,6 +558,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -407,6 +587,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -426,6 +616,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -450,6 +650,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -474,6 +684,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -498,6 +718,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -522,6 +752,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -546,6 +786,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -565,6 +815,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -584,6 +844,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -603,6 +873,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -627,6 +903,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -651,6 +933,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -675,6 +963,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -699,6 +993,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 2.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -723,6 +1027,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 2.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -747,6 +1061,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 2.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -771,6 +1095,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 2.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -790,6 +1124,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -809,6 +1153,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -828,6 +1182,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -852,6 +1216,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -871,6 +1245,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -890,6 +1274,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -909,6 +1303,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -928,6 +1332,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -952,6 +1366,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -971,6 +1395,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -990,6 +1424,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1014,6 +1458,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1038,6 +1492,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1062,6 +1522,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1086,6 +1552,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1110,6 +1586,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1134,6 +1620,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1153,6 +1649,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1172,6 +1678,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1191,6 +1707,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1210,6 +1736,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1250,6 +1786,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1269,6 +1815,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1293,6 +1849,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1333,6 +1899,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1352,6 +1928,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1376,6 +1962,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1395,6 +1991,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1414,6 +2020,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1433,6 +2049,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1452,6 +2078,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1476,6 +2112,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1500,6 +2146,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1519,6 +2175,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1538,6 +2204,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1562,6 +2238,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1581,6 +2267,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1600,6 +2296,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1619,6 +2325,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1638,6 +2354,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1657,6 +2383,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1676,6 +2412,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1695,6 +2441,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1719,6 +2475,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1738,6 +2504,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1757,6 +2533,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1781,6 +2567,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1800,6 +2592,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1819,6 +2617,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1843,6 +2647,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1867,6 +2677,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1886,6 +2702,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1905,6 +2731,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1929,6 +2765,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1953,6 +2795,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -1972,6 +2820,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -1996,6 +2854,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2015,6 +2879,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2034,6 +2908,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2053,6 +2937,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2072,6 +2966,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2096,6 +3000,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2120,6 +3030,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2144,6 +3064,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2163,6 +3093,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2187,6 +3123,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2211,6 +3153,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2235,6 +3183,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2259,6 +3213,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2278,6 +3242,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2302,6 +3276,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2326,6 +3306,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2350,6 +3336,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2369,6 +3361,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2388,6 +3390,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2407,6 +3419,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2447,6 +3469,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2466,6 +3494,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2490,6 +3524,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2509,6 +3549,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2533,6 +3583,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2557,6 +3617,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2581,6 +3647,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2605,6 +3677,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2629,6 +3711,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2653,6 +3741,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2677,6 +3771,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2701,6 +3805,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2725,6 +3835,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2744,6 +3860,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2763,6 +3889,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2808,6 +3944,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2832,6 +3974,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2856,6 +4004,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2875,6 +4029,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2899,6 +4063,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2923,6 +4097,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2947,6 +4127,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -2971,6 +4161,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -2995,6 +4191,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3014,6 +4216,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3038,6 +4250,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3057,6 +4275,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3076,6 +4304,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3095,6 +4333,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3114,6 +4358,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3133,6 +4387,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3157,6 +4421,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3181,6 +4451,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3205,6 +4481,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3224,6 +4506,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3248,6 +4540,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3272,6 +4574,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3296,6 +4604,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3320,6 +4638,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3344,6 +4668,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3368,6 +4698,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3392,6 +4728,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3416,6 +4758,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3440,6 +4792,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3464,6 +4826,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3488,6 +4856,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3512,6 +4886,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3536,6 +4916,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3576,6 +4962,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3658,6 +5054,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3682,6 +5088,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3701,6 +5113,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3720,6 +5138,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3744,6 +5172,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3763,6 +5197,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3782,6 +5226,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3801,6 +5255,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3825,6 +5289,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3849,6 +5323,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3873,6 +5353,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3897,6 +5383,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3916,6 +5412,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3940,6 +5442,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -3959,6 +5471,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -3983,6 +5501,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4002,6 +5526,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4021,6 +5555,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4040,6 +5584,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4064,6 +5618,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4083,6 +5643,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4102,6 +5672,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4126,6 +5706,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4150,6 +5740,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4174,6 +5774,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4198,6 +5808,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4222,6 +5842,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4246,6 +5876,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4270,6 +5910,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4294,6 +5940,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4318,6 +5970,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4342,6 +6000,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4361,6 +6025,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4380,6 +6050,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4404,6 +6084,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4428,6 +6118,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4447,6 +6147,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4466,6 +6176,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4490,6 +6210,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4514,6 +6240,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4538,6 +6270,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4557,6 +6295,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4576,6 +6324,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4595,6 +6353,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4614,6 +6382,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4638,6 +6416,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4662,6 +6446,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4681,6 +6475,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4700,6 +6504,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4719,6 +6533,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4738,6 +6562,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4757,6 +6591,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4781,6 +6625,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4805,6 +6655,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4824,6 +6684,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4843,6 +6713,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4867,6 +6747,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4891,6 +6781,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4910,6 +6810,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4929,6 +6839,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4953,6 +6873,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -4972,6 +6898,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -4991,6 +6927,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5015,6 +6961,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5034,6 +6986,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5053,6 +7015,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5072,6 +7044,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5091,6 +7073,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5110,6 +7098,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5129,6 +7127,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5148,6 +7156,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5167,6 +7185,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5191,6 +7219,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5210,6 +7244,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5234,6 +7278,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5253,6 +7303,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5277,6 +7337,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5296,6 +7362,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5320,6 +7396,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5344,6 +7426,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5368,6 +7456,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5392,6 +7490,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5411,6 +7515,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5435,6 +7545,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5454,6 +7570,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5473,6 +7599,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5497,6 +7633,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5521,6 +7663,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5545,6 +7693,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5569,6 +7723,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5593,6 +7753,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5617,6 +7783,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5641,6 +7813,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5665,6 +7843,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5684,6 +7868,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5708,6 +7902,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5727,6 +7927,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5751,6 +7961,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5775,6 +7991,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5794,6 +8016,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5818,6 +8050,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5842,6 +8084,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5866,6 +8114,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -5885,6 +8139,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5904,6 +8168,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5923,6 +8197,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5942,6 +8226,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5961,6 +8255,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5980,6 +8284,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -5999,6 +8313,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6023,6 +8347,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -6042,6 +8372,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6066,6 +8406,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -6090,6 +8436,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -6109,6 +8461,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -6128,6 +8486,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -6152,6 +8516,12 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::ConvexCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Geometry": {}
 					}
 				}
 			},
@@ -6176,6 +8546,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6216,6 +8596,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6235,6 +8625,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 1.0,
+							"y": 1.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6254,6 +8654,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 1.0,
+							"y": 1.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6273,6 +8683,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 1.0,
+							"y": 1.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6292,6 +8712,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 1.0,
+							"y": 1.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6311,6 +8741,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 1.0,
+							"y": 1.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6330,6 +8770,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 1.0,
+							"y": 1.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6354,6 +8804,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 8.0,
+							"y": 16.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6373,6 +8833,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			},
@@ -6392,6 +8862,16 @@
 					},
 					"gs::core::RigidBody": {
 						"Restitution": 0.5
+					},
+					"gs::core::BoxCollision": {
+						"gs::core::Collision": {
+							"Mass": 0.0
+						},
+						"Dimensions": {
+							"x": 4.0,
+							"y": 4.0,
+							"z": 4.0
+						}
 					}
 				}
 			}

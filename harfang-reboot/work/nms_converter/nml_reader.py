@@ -493,9 +493,6 @@ def convert_folder(folder_path):
 							else:
 								new_node = plus.AddGeometry(scn, "")
 
-							scn.Commit()
-							scn.WaitCommit()
-
 							if new_node is not None:
 								new_node.SetName(item_name)
 								new_node.GetTransform().SetPosition(position)
@@ -509,6 +506,14 @@ def convert_folder(folder_path):
 									if physic_mode != "None":
 										rigid_body = gs.MakeRigidBody()
 
+										rb_type = {'Dynamic': gs.RigidBodyDynamic,
+												   'Kinematic': gs.RigidBodyKinematic,
+												   'Static': gs.RigidBodyStatic}
+										if physic_mode in rb_type:
+											rigid_body.SetType(rb_type[physic_mode])
+										else:
+											print("!Physic mode unknown!")
+
 										linear_damping = 1.0 - float(get_nml_node_data(physic_item.GetChild("LinearDamping_v2"), 1.0))
 										angular_damping = 1.0 - float(get_nml_node_data(physic_item.GetChild("AngularDamping_v2"), 1.0))
 										rigid_body.SetLinearDamping(linear_damping)
@@ -519,10 +524,17 @@ def convert_folder(folder_path):
 
 										new_node.AddComponent(rigid_body)
 
+										while True:
+											scn.Commit()
+											scn.WaitCommit()
+											scn.Update()
+											if scn.IsReady():
+												break
+
 										# iterate on shapes
 										physic_root_shapes = physic_item.GetChild("Shapes")
 										if physic_root_shapes is not None:
-											physic_shapes = physic_root_shapes.GetChilds("GColShape")
+											physic_shapes = physic_root_shapes.GetChilds("PhysicShape")
 											if physic_shapes is not None:
 												for physic_shape in physic_shapes:
 													physic_shape_type = get_nml_node_data(physic_shape.GetChild("Type"), "Box")
@@ -540,9 +552,12 @@ def convert_folder(folder_path):
 													else:
 														new_collision_shape = gs.MakeBoxCollision()
 
-													new_collision_shape.SetMass(float(get_nml_node_data(physic_shape.GetChild("Mass"), 1.0)))
-													new_collision_shape.SetSelfMask(physic_self_mask)
-													new_collision_shape.SetCollisionMask(physic_collision_mask)
+													if physic_mode == "Static":
+														new_collision_shape.SetMass(0.0)
+													else:
+														new_collision_shape.SetMass(float(get_nml_node_data(physic_shape.GetChild("Mass"), 1.0)))
+													# new_collision_shape.SetSelfMask(physic_self_mask)
+													# new_collision_shape.SetCollisionMask(physic_collision_mask)
 
 													position, rotation, scale, dimensions = parse_collision_shape_transformation(physic_shape)
 
@@ -560,6 +575,13 @@ def convert_folder(folder_path):
 
 								uid_dict[str(uid)] = new_node
 
+							while True:
+								scn.Commit()
+								scn.WaitCommit()
+								scn.Update()
+								if scn.IsReady():
+									break
+
 				# ----------- RE-LINKAGE ----------------------
 				for linkage in links:
 					if linkage['parent'] is not None and linkage['child'] is not None:
@@ -571,8 +593,6 @@ def convert_folder(folder_path):
 				in_globals = in_root.GetChild("Globals")
 
 				env_global = gs.Environment()
-				scn.AddComponent(env_global)
-
 				bg_color, ambient_color, fog_color = parse_globals_color(in_globals)
 
 				ambient_intensity = float(get_nml_node_data(in_globals.GetChild("AmbientIntensity"), 0.5))
@@ -588,10 +608,16 @@ def convert_folder(folder_path):
 				env_global.SetFogFar(fog_far)
 				env_global.SetFogColor(fog_color)
 
-				scn.Commit()
-				scn.WaitCommit()
+				scn.AddComponent(env_global)
 
-				# Creates the output folder
+				while True:
+					scn.Commit()
+					scn.WaitCommit()
+					scn.Update()
+					if scn.IsReady():
+						break
+
+		# Creates the output folder
 				folder_out = folder_path.replace(root_in + '\\', '')
 				folder_out = folder_out.replace(root_in + '/', '')
 				folder_out = folder_out.replace(root_in, '')
