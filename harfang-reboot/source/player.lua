@@ -91,6 +91,10 @@ function	ThrustTypeControl()
 		this:GetComponent("RigidBody"):ApplyLinearForce(gs.Vector3(0,1,0) * thrust)
 	end
 
+	if left or right then
+		this:GetComponent("RigidBody"):SetIsSleeping(false)
+	end
+
 	table.insert(debug_pos, this:GetTransform():GetPosition())	
 end
 

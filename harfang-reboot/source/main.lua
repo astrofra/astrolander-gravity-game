@@ -15,7 +15,7 @@ gs.GetFilesystem():Mount(gs.StdFileDriver("assets/"), "@assets")
 plus = gs.GetPlus()
 plus:CreateWorkers()
 
-plus:RenderInit(800, 600, "pkg.core")
+plus:RenderInit(g_screen_width, g_screen_height, "pkg.core")
 
 gui = gs.GetDearImGui()
 dt_sec = nil

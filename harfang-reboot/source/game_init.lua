@@ -38,7 +38,7 @@ function game_init.createEnvironment(plus, scn)
 		plus:UpdateScene(scn, plus:UpdateClock())
 	end	
 
-	plus:AddLight(scn, gs.Matrix4.Identity:LookAt(gs.Vector3(1,-1,0.5)), gs.Light.Model_Linear, 150.0, true)
+	-- plus:AddLight(scn, gs.Matrix4.Identity:LookAt(gs.Vector3(1,-1,0.5)), gs.Light.Model_Linear, 150.0, true)
 	-- plus:AddPhysicPlane(scn, gs.Matrix4.TransformationMatrix(gs.Vector3(0,-5,0), gs.Vector3()), 100, 100, 0.0) 
 	plus:ResetClock()
 end
