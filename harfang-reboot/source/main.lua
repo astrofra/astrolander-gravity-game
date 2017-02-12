@@ -27,7 +27,7 @@ while not scn:IsReady() do
 end
 
 scn:GetPhysicSystem():SetDebugVisuals(true)
-scn:GetPhysicSystem():SetForceRigidBodyAxisLockOnCreation(gs.LockZ + gs.LockRotX + gs.LockRotY + gs.LockRotZ)
+scn:GetPhysicSystem():SetForceRigidBodyAxisLockOnCreation(gs.LockZ + gs.LockRotX + gs.LockRotY)
 scn:GetPhysicSystem():SetGravity(g_gravity)
 
 game_init.createCamera(plus, scn)

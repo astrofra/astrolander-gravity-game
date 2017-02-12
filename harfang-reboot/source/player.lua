@@ -77,13 +77,13 @@ function	ThrustTypeControl()
 
 	if left and not right then
 		this:GetComponent("RigidBody"):ApplyLinearForce(this:GetTransform():GetWorld():GetRow(0) * thrust)
-		-- this:GetComponent("RigidBody"):ApplyForce(thrust_item_l:GetTransform():GetWorld():GetTranslation(), thrust_item_l:GetTransform():GetWorld():GetRow(0) * thrust * 0.1)
+		this:GetComponent("RigidBody"):ApplyForce(thrust_item_l:GetTransform():GetWorld():GetRow(0) * -thrust * -0.1, thrust_item_l:GetTransform():GetWorld():GetTranslation())
 		table.insert(debug_pos, thrust_item_l:GetTransform():GetWorld():GetTranslation())
 	end
 
 	if not left and right then
 		this:GetComponent("RigidBody"):ApplyLinearForce(this:GetTransform():GetWorld():GetRow(0) * -thrust)
-		-- this:GetComponent("RigidBody"):ApplyForce(thrust_item_r:GetTransform():GetWorld():GetTranslation(), thrust_item_r:GetTransform():GetWorld():GetRow(0) * -thrust * 0.1)
+		this:GetComponent("RigidBody"):ApplyForce(thrust_item_r:GetTransform():GetWorld():GetRow(0) * -thrust * -0.1, thrust_item_r:GetTransform():GetWorld():GetTranslation())
 		table.insert(debug_pos, thrust_item_r:GetTransform():GetWorld():GetTranslation())
 	end
 
