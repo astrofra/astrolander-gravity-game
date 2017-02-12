@@ -287,6 +287,69 @@
 						"Geometry": "assets/generic_blocks/g_block_tr_2x8.geo"
 					}
 				}
+			},
+			"Node": {
+				"Uid": 14,
+				"Name": "g_block_16x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 117.3806,
+							"y": 8.0,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "assets/generic_blocks/g_block_16x16.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 15,
+				"Name": "g_block_16x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 139.3982,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "assets/generic_blocks/g_block_16x32.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 16,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 159.0457,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"Rotation": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "assets/generic_blocks/g_block_8x32.geo"
+					}
+				}
 			}
 		},
 		"NodeHierarchy": {},

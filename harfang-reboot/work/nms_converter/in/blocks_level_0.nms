@@ -2,14 +2,11 @@
 <Scene=
 	<ScriptedObject=
 		<ScriptUnit=
-			<Script="scripts/level_exporter.nut">
+			<ScriptPath="scripts/level_exporter.nut">
 			<Class="LevelExporter">
 		>
 	>
-	<ScriptUnit=
-		<Script="scripts/level_exporter.nut">
-		<Class="LevelExporter">
-	>
+	<SceneMotionContainer>
 	<Items=
 		<MObject=
 			<MItem=
@@ -18,7 +15,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -82,6 +78,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x32.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -91,7 +88,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -155,6 +151,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x32.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -164,7 +161,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -228,6 +224,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -237,7 +234,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -296,6 +292,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -305,7 +302,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -369,6 +365,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -378,7 +375,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -442,6 +438,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -451,7 +448,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -511,6 +507,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_8x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -520,7 +517,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -579,6 +575,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_4x4.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -588,7 +585,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -647,6 +643,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_4x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -656,7 +653,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -721,6 +717,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_8x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -730,7 +727,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -794,6 +790,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x32.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -803,7 +800,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -867,6 +863,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x32.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -876,7 +873,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -940,6 +936,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -949,7 +946,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1008,6 +1004,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_16x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1017,7 +1014,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1082,6 +1078,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1091,7 +1088,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1155,6 +1151,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1164,7 +1161,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1220,7 +1216,6 @@
 						<Y=-3.141593>
 						<Z=-1.570796>
 					>
-					<ItemFlag>
 					<Target=
 						<X=0.000000>
 						<Y=0.000000>
@@ -1230,6 +1225,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1239,7 +1235,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1304,6 +1299,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1313,7 +1309,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1378,6 +1373,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1387,7 +1383,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1446,6 +1441,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_4x4.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1455,7 +1451,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1520,6 +1515,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_8x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1529,7 +1525,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1594,6 +1589,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_8x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1603,7 +1599,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1667,6 +1662,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_8x32.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1676,7 +1672,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1741,6 +1736,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1750,7 +1746,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1814,6 +1809,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1823,7 +1819,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1888,6 +1883,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x8.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1897,7 +1893,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -1956,6 +1951,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -1965,7 +1961,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -2024,6 +2019,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_tr_4x16.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -2033,7 +2029,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -2092,6 +2087,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_1x4.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -2101,7 +2097,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -2160,6 +2155,7 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_1x1.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MObject=
@@ -2169,7 +2165,6 @@
 				<Active>
 				<Static>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -2228,15 +2223,15 @@
 					<Registry>
 				>
 				<Geometry="graphics/g_block_1x1.nmg">
+				<CacheGeometry=True>
 			>
 		>
 		<MLight=
 			<MItem=
-				<Id="New Light">
+				<Id="sun">
 				<UId=31>
 				<Active>
 				<Priority=0.500000>
-				<ScriptLogicFq=15.000000>
 				<MotionPlayer=
 					<Motions>
 				>
@@ -2253,12 +2248,11 @@
 			>
 			<Light=
 				<Item=
-					<Position=
-						<X=5000.000000>
-						<Y=5000.000000>
-						<Z=-5000.000000>
+					<Rotation=
+						<X=0.502908>
+						<Y=0.599418>
+						<Z=-0.126388>
 					>
-					<ItemFlag>
 					<Target=
 						<X=0.000000>
 						<Y=0.000000>
@@ -2267,37 +2261,451 @@
 					<RotationOrder="YXZ">
 					<Registry>
 				>
+				<Diffuse=
+					<X=1.000000>
+					<Y=1.000000>
+					<Z=1.000000>
+				>
+				<Specular=
+					<X=1.000000>
+					<Y=1.000000>
+					<Z=1.000000>
+				>
+				<ShadowColor=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+				>
+				<Type="Parallel">
+				<Falloff="Linear">
+				<Range=0.000000>
+				<VolumeRange=500.000000>
+				<ClipDistance=300.000000>
+				<ProjectionMap="">
+				<DiffuseIntensity=1.000000>
+				<SpecularIntensity=0.000000>
+				<ConeAngle=0.523599>
+				<EdgeAngle=0.523599>
+				<ZNear=0.020000>
+				<Shadow="Map">
 				<ShadowBias=0.010000>
-				<ShadowDistribution=0.900000>
+				<ShadowDistribution=0.100000>
+				<ShadowRange=200.000000>
+				<ShadowCastAll=False>
+				<Volumetric=False>
 				<VolumetricSampleStep=0.500000>
 				<VolumetricThick=1.000000>
 				<VolumetricRange=8.000000>
 			>
 		>
+		<MObject=
+			<MItem=
+				<Id="g_block_8x32">
+				<UId=32>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=8.193903>
+						<Y=-8.444156>
+						<Z=-3.139944>
+					>
+					<Rotation=
+						<X=-0.000000>
+						<Y=0.000000>
+						<Z=1.570796>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_8x32.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="g_block_4x8">
+				<UId=33>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-4.682196>
+						<Y=-3.431316>
+						<Z=-1.998599>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_4x8.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="g_block_tr_4x16">
+				<UId=34>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=45.611870>
+						<Y=-9.052924>
+						<Z=-4.313478>
+					>
+					<Rotation=
+						<X=-0.000000>
+						<Y=0.000000>
+						<Z=1.570796>
+					>
+					<Scale=
+						<X=1.000000>
+						<Y=1.000000>
+						<Z=1.250000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_tr_4x16.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="g_block_4x4">
+				<UId=35>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-5.800001>
+						<Y=17.600000>
+						<Z=-3.300000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_4x4.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="g_block_4x4">
+				<UId=36>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=3.699999>
+						<Y=34.099998>
+						<Z=-3.300000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_4x4.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="g_block_4x4">
+				<UId=37>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=15.799999>
+						<Y=34.500000>
+						<Z=-3.300000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_4x4.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="g_block_4x4">
+				<UId=38>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=53.099998>
+						<Y=18.500000>
+						<Z=-3.300000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_4x4.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="g_block_4x4">
+				<UId=39>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=53.500000>
+						<Y=2.599999>
+						<Z=-3.300000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_4x4.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="g_block_4x8">
+				<UId=40>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=3>
+					<Mask=2>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=4.880789>
+						<Y=-6.227687>
+						<Z=-5.032910>
+					>
+					<Rotation=
+						<X=1.303310>
+						<Y=-0.059463>
+						<Z=-0.400310>
+					>
+					<Scale=
+						<X=0.395722>
+						<Y=1.000000>
+						<Z=0.379878>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/g_block_4x8.nmg">
+				<CacheGeometry=True>
+			>
+		>
 	>
 	<Links>
-	<Skins>
 	<Constraints>
 	<Globals=
 		<BackgroundColor=
-			<X=0.337255>
-			<Y=0.858824>
-			<Z=1.000000>
+			<X=0.000000>
+			<Y=0.000000>
+			<Z=0.000000>
 		>
 		<AmbientColor=
-			<X=0.925490>
-			<Y=0.901961>
-			<Z=0.878431>
+			<X=0.498039>
+			<Y=0.443137>
+			<Z=0.349020>
 		>
 		<TimeOfDay=0.500000>
-		<AmbientIntensity=1.000000>
+		<AmbientIntensity=0.500000>
 		<TargetExposure=0.250000>
-		<FogNear=100.000000>
-		<FogFar=250.000000>
+		<FogNear=0.000000>
+		<FogFar=0.000000>
 		<FogColor=
-			<X=0.337255>
-			<Y=0.858824>
-			<Z=1.000000>
+			<X=0.000000>
+			<Y=0.000000>
+			<Z=0.000000>
 		>
 	>
 	<Physics=
@@ -2305,27 +2713,27 @@
 	>
 	<ViewMatrix=
 		<R0=
-			<X=0.999819>
+			<X=0.999894>
 			<Y=-0.000000>
-			<Z=-0.019009>
+			<Z=-0.014561>
 			<W=0.000000>
 		>
 		<R1=
-			<X=0.000366>
-			<Y=0.999815>
-			<Z=0.019226>
+			<X=-0.000261>
+			<Y=0.999839>
+			<Z=-0.017950>
 			<W=0.000000>
 		>
 		<R2=
-			<X=0.019005>
-			<Y=-0.019229>
-			<Z=0.999635>
+			<X=0.014558>
+			<Y=0.017951>
+			<Z=0.999733>
 			<W=0.000000>
 		>
 		<R3=
-			<X=13.883790>
-			<Y=7.533911>
-			<Z=-146.163452>
+			<X=26.861786>
+			<Y=3.289121>
+			<Z=-84.573662>
 			<W=1.000000>
 		>
 	>
@@ -2335,37 +2743,37 @@
 		<Layout="Single">
 		<Viewport=
 			<Index=0>
-			<Camera="@Perspective">
+			<CameraUid=-16>
 			<Matrix=
 				<R0=
-					<X=0.999819>
+					<X=0.999894>
 					<Y=-0.000000>
-					<Z=-0.019009>
+					<Z=-0.014561>
 					<W=0.000000>
 				>
 				<R1=
-					<X=0.000366>
-					<Y=0.999815>
-					<Z=0.019226>
+					<X=-0.000261>
+					<Y=0.999839>
+					<Z=-0.017950>
 					<W=0.000000>
 				>
 				<R2=
-					<X=0.019005>
-					<Y=-0.019229>
-					<Z=0.999635>
+					<X=0.014558>
+					<Y=0.017951>
+					<Z=0.999733>
 					<W=0.000000>
 				>
 				<R3=
-					<X=13.883790>
-					<Y=7.533911>
-					<Z=-146.163452>
+					<X=26.861786>
+					<Y=3.289121>
+					<Z=-84.573662>
 					<W=1.000000>
 				>
 			>
 		>
 		<Viewport=
 			<Index=1>
-			<Camera="@Top">
+			<CameraUid=-10>
 			<Matrix=
 				<R0=
 					<X=1.000000>
@@ -2375,14 +2783,14 @@
 				>
 				<R1=
 					<X=0.000000>
-					<Y=-0.000000>
-					<Z=1.000000>
+					<Y=1.000000>
+					<Z=0.000000>
 					<W=0.000000>
 				>
 				<R2=
 					<X=0.000000>
-					<Y=-1.000000>
-					<Z=-0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
 					<W=0.000000>
 				>
 				<R3=
@@ -2395,7 +2803,7 @@
 		>
 		<Viewport=
 			<Index=2>
-			<Camera="@Bottom">
+			<CameraUid=-11>
 			<Matrix=
 				<R0=
 					<X=1.000000>
@@ -2405,14 +2813,14 @@
 				>
 				<R1=
 					<X=0.000000>
-					<Y=-0.000000>
-					<Z=-1.000000>
+					<Y=1.000000>
+					<Z=0.000000>
 					<W=0.000000>
 				>
 				<R2=
 					<X=0.000000>
-					<Y=1.000000>
-					<Z=-0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
 					<W=0.000000>
 				>
 				<R3=
@@ -2425,12 +2833,12 @@
 		>
 		<Viewport=
 			<Index=3>
-			<Camera="@Left">
+			<CameraUid=-12>
 			<Matrix=
 				<R0=
-					<X=-0.000000>
+					<X=1.000000>
 					<Y=0.000000>
-					<Z=-1.000000>
+					<Z=0.000000>
 					<W=0.000000>
 				>
 				<R1=
@@ -2440,9 +2848,9 @@
 					<W=0.000000>
 				>
 				<R2=
-					<X=1.000000>
+					<X=0.000000>
 					<Y=0.000000>
-					<Z=-0.000000>
+					<Z=1.000000>
 					<W=0.000000>
 				>
 				<R3=

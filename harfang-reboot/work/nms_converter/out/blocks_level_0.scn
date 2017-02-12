@@ -2,41 +2,37 @@
 	"Scene": {
 		"Components": {
 			"gs::core::Environment": {
-				"BackgroundColor": {
-					"r": 0.3373,
-					"g": 0.8589,
-					"b": 1.0
-				},
 				"AmbientColor": {
-					"r": 0.9255,
-					"g": 0.902,
-					"b": 0.8785000000000001
+					"r": 0.49810000000000007,
+					"g": 0.44320000000000006,
+					"b": 0.3491
 				},
-				"FogColor": {
-					"r": 0.3373,
-					"g": 0.8589,
-					"b": 1.0
-				},
-				"FogNear": 100.0,
-				"FogFar": 250.0
+				"AmbientIntensity": 0.5
 			}
 		},
 		"Nodes": {
 			"Node": {
 				"Uid": 1,
-				"Name": "New Light",
+				"Name": "sun",
 				"Components": {
 					"gs::core::Transform": {
-						"Position": {
-							"x": 5000.0,
-							"y": 5000.0,
-							"z": -5000.0
+						"Rotation": {
+							"x": 0.503,
+							"y": 0.5995,
+							"z": -0.1263
 						}
 					},
 					"gs::core::Light": {
+						"Model": "Linear",
 						"Shadow": "ShadowMap",
-						"ShadowRange": 0.0,
-						"ClipDistance": 300.0
+						"ShadowRange": 200.0,
+						"ZNear": 0.02,
+						"ClipDistance": 300.0,
+						"SpecularColor": {
+							"r": 1.0,
+							"g": 1.0,
+							"b": 1.0
+						}
 					}
 				}
 			},
@@ -996,6 +992,175 @@
 							"y": 1.0,
 							"z": 4.0
 						}
+					}
+				}
+			},
+			"Node": {
+				"Uid": 33,
+				"Name": "g_block_8x32",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 8.194,
+							"y": -8.4441,
+							"z": -3.1399000000000005
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_8x32.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 34,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -4.6821,
+							"y": -3.4313000000000004,
+							"z": -1.9985000000000002
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 35,
+				"Name": "g_block_tr_4x16",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 45.611900000000009,
+							"y": -9.052900000000001,
+							"z": -4.313400000000001
+						},
+						"Rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 1.5708
+						},
+						"Scale": {
+							"x": 1.0,
+							"y": 1.0,
+							"z": 1.25
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_tr_4x16.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 36,
+				"Name": "g_block_4x4",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": -5.800000000000001,
+							"y": 17.6001,
+							"z": -3.2999
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x4.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 37,
+				"Name": "g_block_4x4",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 3.7,
+							"y": 34.1,
+							"z": -3.2999
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x4.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 38,
+				"Name": "g_block_4x4",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 15.8,
+							"y": 34.5,
+							"z": -3.2999
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x4.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 39,
+				"Name": "g_block_4x4",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 53.1,
+							"y": 18.5,
+							"z": -3.2999
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x4.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 40,
+				"Name": "g_block_4x4",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 53.5,
+							"y": 2.6,
+							"z": -3.2999
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x4.geo"
+					}
+				}
+			},
+			"Node": {
+				"Uid": 41,
+				"Name": "g_block_4x8",
+				"Components": {
+					"gs::core::Transform": {
+						"Position": {
+							"x": 4.8808,
+							"y": -6.227600000000001,
+							"z": -5.032900000000001
+						},
+						"Rotation": {
+							"x": 1.3034000000000002,
+							"y": -0.0594,
+							"z": -0.40030000000000007
+						},
+						"Scale": {
+							"x": 0.39580000000000006,
+							"y": 1.0,
+							"z": 0.3799
+						}
+					},
+					"gs::core::Object": {
+						"Geometry": "@assets\\generic_blocks\\g_block_4x8.geo"
 					}
 				}
 			}
