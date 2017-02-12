@@ -118,7 +118,7 @@ function 	SpeedLimiter()
 
 	local	_speed_limit = speed_limit_filter:GetFilteredValue()
 
-	print('velocity ' .. this:GetComponent('RigidBody'):GetLinearVelocity():Len())
+	-- print('velocity ' .. this:GetComponent('RigidBody'):GetLinearVelocity():Len())
 	-- print('speed_limiter ' .. speed_limiter)
 	if speed_limiter > 0.0 and impulse_limiter:Len() < max_speed then
 		-- this:GetComponent('RigidBody'):ApplyLinearImpulse(impulse_limiter) -- 	

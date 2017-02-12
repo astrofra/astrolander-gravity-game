@@ -18,7 +18,7 @@ LinearFilter = Class {
 
 	GetFilteredValue = function(self)
 		local	filtered_value
-		if type(self.values[0]) == "number" then
+		if type(self.values[1]) == "number" then
 			filtered_value = 0.0
 		else
 			filtered_value = gs.Vector3(0,0,0)

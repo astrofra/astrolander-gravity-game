@@ -23,6 +23,12 @@ function GenerateSquareFlicker(_frequency) -- In Hz
 	end
 end
 
+-- GameStart compat function
+
+function Mtr(n)
+    return n
+end
+
 -- From http://lua-users.org/wiki/CopyTable
 
 function shallowcopy(orig)

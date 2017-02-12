@@ -1,5 +1,9 @@
 -- Camera
 
+dofile("common.lua")
+dofile("linear_filter.lua")
+dofile("game_globals.lua")
+
 -- class	CameraHandler
 -- {
 scene =	nil
@@ -31,10 +35,10 @@ function Setup()
 	target_vel = gs.Vector3(0,0,0)
 	close_up = false
 	close_up_factor = 0.0
-	-- close_up_factor_filtered = LinearFilter(30)
-	-- camera_rot_z_filtered = LinearFilter(30)
-	-- camera_offset_z_filtered = LinearFilter(15)
-	-- camera_pos_filtered = LinearFilter(15)
+	close_up_factor_filtered = LinearFilter(30)
+	camera_rot_z_filtered = LinearFilter(30)
+	camera_offset_z_filtered = LinearFilter(15)
+	camera_pos_filtered = LinearFilter(15)
 
 	SetFx()
 end
@@ -68,10 +72,10 @@ end
 function	StickToPlayerPosition(player_pos)
 --------------------------------------
 	player_pos = player_pos or gs.Vector3(0,0,0)
-	-- local	_z_save = camera_pos.z
-	-- camera_pos = player_pos
-	-- camera_pos.z = _z_save
-	-- ItemSetPosition(camera_item, camera_pos)
+	local	_z_save = camera_pos.z
+	camera_pos = player_pos
+	camera_pos.z = _z_save
+	this:GetTransform():SetPosition(camera_pos)
 end
 
 --------------------------------------
@@ -79,52 +83,47 @@ function	FollowPlayerPosition(player_pos, player_vel)
 --------------------------------------
 	player_pos = player_pos or gs.Vector3(0,0,0)
 	player_vel = player_vel or gs.Vector3(0,0,0)
-	-- camera_pos_filtered.SetNewValue(player_pos)
-	-- camera_pos = camera_pos_filtered.GetFilteredValue()
+	camera_pos_filtered:SetNewValue(player_pos)
+	camera_pos = camera_pos_filtered:GetFilteredValue()
 
-	-- --	Compute the delta between the actual "unzoom offset"
-	-- --	and the last computed optimal offset
-	-- --	Z remains untouched
-	-- local	v_d = Vector(0,0,0)
-	-- v_d.x = player_vel.x - target_vel.x
-	-- v_d.y = player_vel.y - target_vel.y
+	--	Compute the delta between the actual "unzoom offset"
+	--	and the last computed optimal offset
+	--	Z remains untouched
+	local	v_d = gs.Vector3(0,0,0)
+	v_d.x = player_vel.x - target_vel.x
+	v_d.y = player_vel.y - target_vel.y
 
-	-- --	Scale & Clamp this offset, based on the player max speed,
-	-- --	modulate it by the framerated.
-	-- local	clamp_vel, speed
-	-- target_vel = target_vel + v_d.Scale(0.25 / 60.0)
-	-- speed = RangeAdjust(target_vel.Len(), 0.0, max_sneak_speed, 0.0, sneak_radius)
-	-- speed = Clamp(speed, 0.0, sneak_radius) + Mtr(50.0)
-	-- --	Finally converts the offset length into the unzoom distance.
-	-- clamp_vel = Vector(0,0, -speed)
+	--	Scale & Clamp this offset, based on the player max speed,
+	--	modulate it by the framerated.
+	local	clamp_vel, speed
+	target_vel = target_vel + (v_d * (0.25 / 60.0))
+	speed = RangeAdjust(target_vel:Len(), 0.0, max_sneak_speed, 0.0, sneak_radius)
+	speed = Clamp(speed, 0.0, sneak_radius) + Mtr(50.0)
+	--	Finally converts the offset length into the unzoom distance.
+	clamp_vel = gs.Vector3(0,0, -speed)
 
-	-- --	Filter z offset
-	-- camera_offset_z_filtered.SetNewValue(clamp_vel.z)
-	-- clamp_vel.z = camera_offset_z_filtered.GetFilteredValue()
+	--	Filter z offset
+	camera_offset_z_filtered:SetNewValue(clamp_vel)
+	clamp_vel.z = camera_offset_z_filtered:GetFilteredValue().z
 
-	-- --	--------------------------------------------------
-	-- --	Camera rotation along the player lateral velocity
-	-- --	--------------------------------------------------
-	-- local	_clamp_x_vel = Abs(player_vel.x)
-	-- _clamp_x_vel = Clamp(_clamp_x_vel, 0.0, g_player_max_speed)
-	-- _clamp_x_vel = RangeAdjust(_clamp_x_vel, g_player_max_speed * 0.125, g_player_max_speed * 0.75, 0.0, 1.0)
-	-- _clamp_x_vel = Clamp(_clamp_x_vel, 0.0, 1.0)
-	-- if (player_vel.x < 0.0)
-	-- 	_clamp_x_vel *= -1
+	--	--------------------------------------------------
+	--	Camera rotation along the player lateral velocity
+	--	--------------------------------------------------
+	local	_clamp_x_vel = math.abs(player_vel.x)
+	_clamp_x_vel = Clamp(_clamp_x_vel, 0.0, g_player_max_speed)
+	_clamp_x_vel = RangeAdjust(_clamp_x_vel, g_player_max_speed * 0.125, g_player_max_speed * 0.75, 0.0, 1.0)
+	_clamp_x_vel = Clamp(_clamp_x_vel, 0.0, 1.0)
+	if player_vel.x < 0.0 then
+		_clamp_x_vel = -_clamp_x_vel
+	end
 
-	-- camera_rot_z = _clamp_x_vel * -2.5
-	-- camera_rot_z = Clamp(camera_rot_z, -2.5, 2.5)
+	camera_rot_z = _clamp_x_vel * -2.5
+	camera_rot_z = Clamp(camera_rot_z, -2.5, 2.5)
 			
-	-- --	Filter the camera rotation
-	-- camera_rot_z_filtered.SetNewValue(camera_rot_z)
-	-- camera_rot.z = DegreeToRadian(camera_rot_z_filtered.GetFilteredValue())
+	--	Filter the camera rotation
+	camera_rot_z_filtered:SetNewValue(camera_rot_z)
+	camera_rot.z = math.rad(camera_rot_z_filtered:GetFilteredValue())
 
-	-- ItemSetPosition(camera_item, camera_pos + clamp_vel)
-	-- ItemSetRotation(camera_item, camera_rot)
-
-	camera_pos.x = player_pos.x
-	camera_pos.y = player_pos.y
-	this:GetTransform():SetPosition(camera_pos)
+	this:GetTransform():SetPosition(camera_pos + clamp_vel)
+	this:GetTransform():SetRotation(camera_rot)
 end
-
--- }
