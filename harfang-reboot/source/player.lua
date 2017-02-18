@@ -49,9 +49,9 @@ function cross3D(pos, size_cross)
 end
 
 function EndDrawFrame()
-	for i, pos in ipairs(debug_pos) do
-		cross3D(pos, 2.0)
-	end
+	-- for i, pos in ipairs(debug_pos) do
+	-- 	cross3D(pos, 2.0)
+	-- end
 end
 
 function Update()

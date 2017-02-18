@@ -267,7 +267,7 @@ def get_nml_node_data(node, default_value = None):
 # - Save the resulting scene into a new file (Json or XML)
 
 root_in = "in"
-root_out = "../../source/assets/levels/" # "out"
+root_out = "../../source/assets/" # "out"
 root_assets = "../../source/assets/"
 folder_assets = "@assets"
 
@@ -352,7 +352,7 @@ def convert_folder(folder_path):
 								new_node.AddComponent(node_transform)
 
 								instance_path = instance_path.replace(".nms", ".scn")
-								instance_path = instance_path.replace("scenes/", folder_assets)
+								instance_path = instance_path.replace("graphics/", folder_assets)
 
 								node_instance = gs.Instance()
 								node_instance.SetPath(instance_path)
@@ -486,6 +486,7 @@ def convert_folder(folder_path):
 									for rule_item_name in mapping_rule[0]:
 										if item_name.startswith(rule_item_name):
 											intermediate_folder = mapping_rule[1]
+
 								if intermediate_folder is not None:
 									new_node = plus.AddGeometry(scn, os.path.join(folder_assets, intermediate_folder, geometry_filename))
 								else:

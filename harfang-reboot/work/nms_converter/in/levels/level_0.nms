@@ -2913,7 +2913,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=50>
+				<UId=47>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -2954,7 +2954,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=51>
+				<UId=48>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -2995,7 +2995,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=52>
+				<UId=49>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3036,7 +3036,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=53>
+				<UId=50>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3077,7 +3077,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=54>
+				<UId=51>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3118,7 +3118,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=55>
+				<UId=52>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3159,7 +3159,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=56>
+				<UId=53>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3200,7 +3200,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=57>
+				<UId=54>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3241,7 +3241,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=58>
+				<UId=55>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3282,7 +3282,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=59>
+				<UId=56>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3323,7 +3323,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=60>
+				<UId=57>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3364,7 +3364,7 @@
 		<MObject=
 			<MItem=
 				<Id="Coin">
-				<UId=61>
+				<UId=58>
 				<TriggerDetected>
 				<Active>
 				<Static>
@@ -3405,7 +3405,7 @@
 		<Instance=
 			<MItem=
 				<Id="Artifact">
-				<UId=62>
+				<UId=59>
 				<Active>
 				<Static>
 				<Priority=0.500000>
@@ -3439,6 +3439,779 @@
 			>
 			<Template="graphics/Artifact.nms">
 		>
+		<MObject=
+			<MItem=
+				<Id="homebase">
+				<UId=60>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="Static">
+					<Shapes=
+						<PhysicShape=
+							<Type="Box">
+							<Position=
+								<X=0.000000>
+								<Y=0.200000>
+								<Z=0.000000>
+							>
+							<Rotation=
+								<X=0.000000>
+								<Y=0.000000>
+								<Z=0.000000>
+							>
+							<Scale=
+								<X=1.000000>
+								<Y=1.000000>
+								<Z=1.000000>
+							>
+							<Dimensions=
+								<X=3.600000>
+								<Y=0.400000>
+								<Z=3.600000>
+							>
+							<StaticFriction=0.100000>
+							<DynamicFriction=0.000000>
+							<Restitution=0.500000>
+						>
+					>
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=42.000000>
+						<Y=-2.031000>
+						<Z=0.021000>
+					>
+					<Rotation=
+						<X=-0.000000>
+						<Y=-3.141592>
+						<Z=0.000000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/target.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<Instance=
+			<MItem=
+				<Id="Background 0">
+				<UId=61>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/background_0.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTree0">
+				<UId=62>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=6.863832>
+					<Y=46.265648>
+					<Z=-3.866057>
+				>
+				<Rotation=
+					<X=-0.000000>
+					<Y=-2.819580>
+					<Z=0.000000>
+				>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTree0_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush0">
+				<UId=63>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=-6.078042>
+					<Y=49.701393>
+					<Z=0.000000>
+				>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush0_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush0">
+				<UId=64>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=30.692125>
+					<Y=45.899082>
+					<Z=0.000000>
+				>
+				<Rotation=
+					<X=-0.000000>
+					<Y=-3.141593>
+					<Z=0.000000>
+				>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush0_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush0">
+				<UId=65>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=24.029207>
+					<Y=9.541942>
+					<Z=-0.000015>
+				>
+				<Rotation=
+					<X=-0.000000>
+					<Y=3.141592>
+					<Z=0.000000>
+				>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush0_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=66>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=43.899014>
+					<Y=49.982174>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=67>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=35.088451>
+					<Y=45.597252>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=68>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=26.742908>
+					<Y=44.353821>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=69>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=3.852737>
+					<Y=44.617527>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=70>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=-2.795723>
+					<Y=47.498596>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=71>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=-8.854327>
+					<Y=48.045288>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=72>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=-12.496160>
+					<Y=45.446327>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=73>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=53.604828>
+					<Y=48.211876>
+					<Z=1.011066>
+				>
+				<Rotation=
+					<X=-0.000000>
+					<Y=-3.141593>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=74>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=34.357574>
+					<Y=-3.254321>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush1">
+				<UId=75>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=14.839333>
+					<Y=-2.850034>
+					<Z=0.551528>
+				>
+				<Rotation=
+					<X=-0.000000>
+					<Y=-3.141593>
+					<Z=0.000000>
+				>
+				<ItemFlag>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush1_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush0">
+				<UId=76>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=0.479652>
+					<Y=-4.478861>
+					<Z=-2.298588>
+				>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush0_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTreeBush0">
+				<UId=77>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=20.885410>
+					<Y=-6.336019>
+					<Z=-3.819254>
+				>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTreeBush0_pc.nms">
+		>
+		<Instance=
+			<MItem=
+				<Id="PropTree0">
+				<UId=78>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="None">
+				>
+			>
+			<Item=
+				<Position=
+					<X=-3.336168>
+					<Y=19.765646>
+					<Z=-5.066057>
+				>
+				<Rotation=
+					<X=-0.000000>
+					<Y=3.070906>
+					<Z=0.000000>
+				>
+				<Target=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+				>
+				<RotationOrder="YXZ">
+				<Registry>
+			>
+			<Template="graphics/PropTree0_pc.nms">
+		>
 	>
 	<Links>
 	<Constraints>
@@ -3456,12 +4229,12 @@
 		<TimeOfDay=0.500000>
 		<AmbientIntensity=0.500000>
 		<TargetExposure=0.250000>
-		<FogNear=0.000000>
-		<FogFar=0.000000>
+		<FogNear=100.000000>
+		<FogFar=250.000000>
 		<FogColor=
-			<X=0.000000>
-			<Y=0.000000>
-			<Z=0.000000>
+			<X=0.337255>
+			<Y=0.858824>
+			<Z=1.000000>
 		>
 	>
 	<Physics=
@@ -3470,7 +4243,7 @@
 	<ViewMatrix=
 		<R0=
 			<X=0.999894>
-			<Y=-0.000000>
+			<Y=0.000000>
 			<Z=-0.014561>
 			<W=0.000000>
 		>
@@ -3487,9 +4260,9 @@
 			<W=0.000000>
 		>
 		<R3=
-			<X=26.861786>
-			<Y=3.289121>
-			<Z=-84.573662>
+			<X=24.864807>
+			<Y=4.475498>
+			<Z=-83.125488>
 			<W=1.000000>
 		>
 	>
@@ -3503,7 +4276,7 @@
 			<Matrix=
 				<R0=
 					<X=0.999894>
-					<Y=-0.000000>
+					<Y=0.000000>
 					<Z=-0.014561>
 					<W=0.000000>
 				>
@@ -3520,9 +4293,9 @@
 					<W=0.000000>
 				>
 				<R3=
-					<X=26.861786>
-					<Y=3.289121>
-					<Z=-84.573662>
+					<X=24.864807>
+					<Y=4.475498>
+					<Z=-83.125488>
 					<W=1.000000>
 				>
 			>
