@@ -15,16 +15,34 @@ rem shield
 mkdir ..\source\assets\shield
 fbx_converter_bin fbx/shield/shield.fbx -fix-geometry-orientation -o ../source/assets/shield/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
 
-timeout 2
-REM delete all in build
-del /s /f /q ..\build\assets\*.*
-timeout 2
+rem mobile_items
+fbx_converter_bin fbx/mobile_items/mobiles_items.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
 
-for /f %%f in ('dir /ad /b ..\build\assets\') do rd /s /q ..\build\assets\%%f
-timeout 2
+rem bonus
+fbx_converter_bin fbx/mobile_items/bonus.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
 
-REM copy all assets in source to assets in build
-mkdir ..\build\assets
-xcopy /s ..\source\assets ..\build\assets
+rem static_props
+fbx_converter_bin fbx/static_props/prop_greek_columns.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
+fbx_converter_bin fbx/static_props/prop_reservoir.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
+fbx_converter_bin fbx/static_props/prop_sea.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
+fbx_converter_bin fbx/static_props/prop_statue.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
+fbx_converter_bin fbx/static_props/prop_trees.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
+
+rem background
+fbx_converter_bin fbx/background/background_elements.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
+fbx_converter_bin fbx/background/background_mountain.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
+
+
+rem timeout 2
+rem REM delete all in build
+rem del /s /f /q ..\build\assets\*.*
+rem timeout 2
+
+rem for /f %%f in ('dir /ad /b ..\build\assets\') do rd /s /q ..\build\assets\%%f
+rem timeout 2
+
+rem REM copy all assets in source to assets in build
+rem mkdir ..\build\assets
+rem xcopy /s ..\source\assets ..\build\assets
 
 pause

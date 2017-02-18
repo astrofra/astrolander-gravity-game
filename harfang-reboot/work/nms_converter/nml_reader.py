@@ -267,7 +267,7 @@ def get_nml_node_data(node, default_value = None):
 # - Save the resulting scene into a new file (Json or XML)
 
 root_in = "in"
-root_out = "out"
+root_out = "../../source/assets/levels/" # "out"
 root_assets = "../../source/assets/"
 folder_assets = "@assets"
 
@@ -622,6 +622,7 @@ def convert_folder(folder_path):
 				folder_out = folder_out.replace(root_in + '/', '')
 				folder_out = folder_out.replace(root_in, '')
 
+				os.makedirs(root_out, exist_ok=True)
 				if folder_out !='' and not os.path.exists(os.path.join(root_out, folder_out)):
 					os.makedirs(os.path.join(root_out, folder_out), exist_ok=True)
 

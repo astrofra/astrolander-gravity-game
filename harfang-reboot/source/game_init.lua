@@ -32,7 +32,7 @@ end
 function game_init.createEnvironment(plus, scn)
 	print('game_init.createEnvironment()')
 
-	scn:Load('assets/blocks_level_0.scn', gs.SceneLoadContext(plus:GetRenderSystem()))
+	scn:Load('assets/levels/level_0.scn', gs.SceneLoadContext(plus:GetRenderSystem()))
 
 	while not scn:IsReady() do
 		plus:UpdateScene(scn, plus:UpdateClock())
