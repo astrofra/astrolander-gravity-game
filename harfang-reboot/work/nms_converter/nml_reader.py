@@ -520,8 +520,8 @@ def convert_folder(folder_path):
 										rigid_body.SetLinearDamping(linear_damping)
 										rigid_body.SetAngularDamping(angular_damping)
 
-										physic_self_mask = int(get_nml_node_data(physic_item.GetChild("SelfMask"), 1))
-										physic_collision_mask = int(get_nml_node_data(physic_item.GetChild("Mask"), 1))
+										# physic_self_mask = int(get_nml_node_data(physic_item.GetChild("SelfMask"), 1))
+										# physic_collision_mask = int(get_nml_node_data(physic_item.GetChild("Mask"), 1))
 
 										new_node.AddComponent(rigid_body)
 
@@ -562,7 +562,10 @@ def convert_folder(folder_path):
 
 													position, rotation, scale, dimensions = parse_collision_shape_transformation(physic_shape)
 
-													# new_collision_shape.SetMatrix()
+													col_matrix = gs.Matrix4()
+													col_matrix.SetTranslation(position)
+													col_matrix.Rotate(rotation)
+													new_collision_shape.SetMatrix(col_matrix)
 
 													if physic_shape_type == 'Box':
 														new_collision_shape.SetDimensions(dimensions)
