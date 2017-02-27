@@ -478,7 +478,7 @@ def convert_folder(folder_path):
 							# transformation
 							position, rotation, scale, rotation_order = parse_transformation(item)
 
-							new_node = None
+							node_geo_filename = ""
 
 							if geometry_filename is not None and geometry_filename != '':
 								intermediate_folder = None
@@ -488,11 +488,11 @@ def convert_folder(folder_path):
 											intermediate_folder = mapping_rule[1]
 
 								if intermediate_folder is not None:
-									new_node = plus.AddGeometry(scn, os.path.join(folder_assets, intermediate_folder, geometry_filename))
+									node_geo_filename = os.path.join(folder_assets, intermediate_folder, geometry_filename)
 								else:
-									new_node = plus.AddGeometry(scn, os.path.join(folder_assets, geometry_filename))
-							else:
-								new_node = plus.AddGeometry(scn, "")
+									node_geo_filename = os.path.join(folder_assets, geometry_filename)
+
+							new_node = plus.AddGeometry(scn, node_geo_filename)
 
 							if new_node is not None:
 								new_node.SetName(item_name)
@@ -540,7 +540,7 @@ def convert_folder(folder_path):
 												for physic_shape in physic_shapes:
 													physic_shape_type = get_nml_node_data(physic_shape.GetChild("Type"), "Box")
 
-
+													new_collision_shape = None
 													col_type_dict = {'Box': gs.MakeBoxCollision(),
 													                 'Sphere': gs.MakeSphereCollision(),
 													                 'Capsule': gs.MakeCapsuleCollision(),
@@ -574,6 +574,10 @@ def convert_folder(folder_path):
 													elif physic_shape_type == 'Capsule' or physic_shape_type == 'Cylinder':
 														new_collision_shape.SetRadius(dimensions.x)
 														new_collision_shape.SetLength(dimensions.y)
+													elif physic_shape_type == 'Convex':
+														col_geo = gs.LoadCoreGeometry(node_geo_filename)
+														if col_geo is not None:
+															new_collision_shape.SetGeometry(col_geo)
 
 													new_node.AddComponent(new_collision_shape)
 
