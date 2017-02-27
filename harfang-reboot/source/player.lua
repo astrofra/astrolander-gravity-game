@@ -116,16 +116,13 @@ function	AutoAlign()
 end
 
 function 	SpeedLimiter()
-	local speed_limiter = math.max(this:GetComponent('RigidBody'):GetLinearVelocity():Len() - max_speed, 0.0) -- local	speed_limiter = Max(ItemGetLinearVelocity(item).Len() - g_player_max_speed, 0.0)
-	local	impulse_limiter = this:GetComponent('RigidBody'):GetLinearVelocity() * (-speed_limiter) -- local	impulse_limiter = ItemGetLinearVelocity(item).Scale(-speed_limiter)
+	local speed_limiter = math.max(this:GetComponent('RigidBody'):GetLinearVelocity():Len() - max_speed, 0.0)
+	local	impulse_limiter = this:GetComponent('RigidBody'):GetLinearVelocity() * (-speed_limiter)
 	speed_limit_filter:SetNewValue(impulse_limiter)
 
 	local	_speed_limit = speed_limit_filter:GetFilteredValue()
 
-	-- print('velocity ' .. this:GetComponent('RigidBody'):GetLinearVelocity():Len())
-	-- print('speed_limiter ' .. speed_limiter)
 	if speed_limiter > 0.0 and impulse_limiter:Len() < max_speed then
-		-- this:GetComponent('RigidBody'):ApplyLinearImpulse(impulse_limiter) -- 	
 		this:GetComponent('RigidBody'):ApplyLinearImpulse(speed_limit_filter:GetFilteredValue())
 	end
 end

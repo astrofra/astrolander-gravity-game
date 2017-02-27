@@ -30,6 +30,7 @@ function Setup()
 	camera_pos = this:GetTransform():GetPosition()
 	camera_rot = gs.Vector3(0,0,0)
 	camera_rot_z = 0.0
+	this:GetComponent("Camera"):SetZoomFactor(gs.FovToZoomFactor(math.rad(22.5)))
 	-- CameraSetFov(ItemCastToCamera(camera_item), DegreeToRadian(22.5))
 	-- CameraSetClipping(ItemCastToCamera(camera_item), Mtr(20.0), Mtr(1500.0))
 	target_vel = gs.Vector3(0,0,0)

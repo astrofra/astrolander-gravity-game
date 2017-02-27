@@ -29,6 +29,10 @@ function Mtr(n)
     return n
 end
 
+function Sec(n)
+    return n
+end
+
 -- From http://lua-users.org/wiki/CopyTable
 
 function shallowcopy(orig)
