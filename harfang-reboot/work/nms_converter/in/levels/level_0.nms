@@ -3733,7 +3733,6 @@
 					<Y=49.982174>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -3771,7 +3770,6 @@
 					<Y=45.597252>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -3809,7 +3807,6 @@
 					<Y=44.353821>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -3847,7 +3844,6 @@
 					<Y=44.617527>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -3885,7 +3881,6 @@
 					<Y=47.498596>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -3923,7 +3918,6 @@
 					<Y=48.045288>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -3961,7 +3955,6 @@
 					<Y=45.446327>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -4004,7 +3997,6 @@
 					<Y=-3.141593>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -4042,7 +4034,6 @@
 					<Y=-3.254321>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -4085,7 +4076,6 @@
 					<Y=-3.141593>
 					<Z=0.000000>
 				>
-				<ItemFlag>
 				<Target=
 					<X=0.000000>
 					<Y=0.000000>
@@ -4212,6 +4202,119 @@
 			>
 			<Template="graphics/PropTree0_pc.nms">
 		>
+		<MObject=
+			<MItem=
+				<Id="start">
+				<UId=79>
+				<Active>
+				<Static>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=0.500000>
+					<CharacterHeight=1.750000>
+					<CharacterMaxStep=0.250000>
+					<Mode="Static">
+					<Shapes=
+						<PhysicShape=
+							<Type="Box">
+							<Position=
+								<X=0.000000>
+								<Y=0.200000>
+								<Z=0.000000>
+							>
+							<Rotation=
+								<X=0.000000>
+								<Y=0.000000>
+								<Z=0.000000>
+							>
+							<Scale=
+								<X=1.000000>
+								<Y=1.000000>
+								<Z=1.000000>
+							>
+							<Dimensions=
+								<X=3.600000>
+								<Y=0.400000>
+								<Z=3.600000>
+							>
+							<StaticFriction=0.100000>
+							<DynamicFriction=0.000000>
+							<Restitution=0.500000>
+						>
+					>
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=8.000000>
+						<Y=-2.030810>
+						<Z=0.022000>
+					>
+					<Rotation=
+						<X=-0.000000>
+						<Y=-3.141592>
+						<Z=0.000000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="graphics/target.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="spawnpoint">
+				<UId=80>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=8.000000>
+						<Y=0.434000>
+						<Z=0.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="">
+				<CacheGeometry=True>
+			>
+		>
 	>
 	<Links>
 	<Constraints>
@@ -4260,9 +4363,9 @@
 			<W=0.000000>
 		>
 		<R3=
-			<X=24.864807>
-			<Y=4.475498>
-			<Z=-83.125488>
+			<X=27.530697>
+			<Y=10.645615>
+			<Z=-71.751907>
 			<W=1.000000>
 		>
 	>
@@ -4293,9 +4396,9 @@
 					<W=0.000000>
 				>
 				<R3=
-					<X=24.864807>
-					<Y=4.475498>
-					<Z=-83.125488>
+					<X=27.530697>
+					<Y=10.645615>
+					<Z=-71.751907>
 					<W=1.000000>
 				>
 			>

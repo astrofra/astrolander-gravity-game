@@ -26,7 +26,7 @@ fbx_converter_bin fbx/static_props/prop_greek_columns.FBX -fix-geometry-orientat
 fbx_converter_bin fbx/static_props/prop_reservoir.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
 fbx_converter_bin fbx/static_props/prop_sea.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
 fbx_converter_bin fbx/static_props/prop_statue.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
-fbx_converter_bin fbx/static_props/prop_trees.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
+fbx_converter_bin fbx/static_props/prop_trees.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite -finalizer-script finalizer.lua
 
 rem background
 fbx_converter_bin fbx/background/background_elements.FBX -fix-geometry-orientation -o ../source/assets/ -base-resource-path ../source/ -material-policy overwrite -geometry-policy overwrite -texture-policy overwrite -scene-policy overwrite
