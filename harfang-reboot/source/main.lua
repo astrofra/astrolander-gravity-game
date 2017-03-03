@@ -26,7 +26,7 @@ while not scn:IsReady() do
 	plus:UpdateScene(scn, plus:UpdateClock())
 end
 
-scn:GetPhysicSystem():SetDebugVisuals(true)
+scn:GetPhysicSystem():SetDebugVisuals(false)
 scn:GetPhysicSystem():SetForceRigidBodyAxisLockOnCreation(gs.LockZ + gs.LockRotX + gs.LockRotY)
 scn:GetPhysicSystem():SetGravity(g_gravity)
 
