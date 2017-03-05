@@ -20,12 +20,15 @@ plus:RenderInit(g_screen_width, g_screen_height, "pkg.core")
 gui = gs.GetDearImGui()
 dt_sec = nil
 
-scn = gameInit(plus)
+game_init_co = coroutine.create(levelInit())
+-- scn = gameInit(plus)
 
 while not plus:IsAppEnded() do
 	if plus ~= nil then 
 		dt_sec = plus:UpdateClock()
 		plus:Clear()
+
+		coroutine.resume(game_init_co)
 
 		if scn ~= nil then
 			plus:UpdateScene(scn, dt_sec)

@@ -1,3 +1,6 @@
+-- game logic
+scn = nil
+plus = nil
 
 -- Physics
 g_player_max_speed = 25
