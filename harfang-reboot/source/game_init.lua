@@ -2,45 +2,50 @@
 
 require('common')
 
-local game_init = {}
+function waitSceneReady(plus,scn)
+	while not scn:IsReady() do
+		plus:UpdateScene(scn, plus:UpdateClock())
+	end
+end
 
-function game_init.createPlayer(plus,scn)
+function gameInit(plus)
+	local scn = plus:NewScene(true, true)
+
+	waitSceneReady(plus,scn)
+
+	--	physics
+	scn:GetPhysicSystem():SetDebugVisuals(false)
+	scn:GetPhysicSystem():SetForceRigidBodyAxisLockOnCreation(gs.LockZ + gs.LockRotX + gs.LockRotY)
+	scn:GetPhysicSystem():SetGravity(g_gravity)
+
+	-- player
 	print('game_init.createPlayer()')
 
 	scn:Load('assets/pod/pod.scn', gs.SceneLoadContext(plus:GetRenderSystem()))
 
-	while not scn:IsReady() do
-		plus:UpdateScene(scn, plus:UpdateClock())
-	end
+	waitSceneReady(plus, scn)
 
 	local player_body = scn:GetNode('pod_body')
 	local ls = gs.LogicScript('player.lua')
 	player_body:AddComponent(ls)
-end
 
-function game_init.createCamera(plus, scn)
+	--	camera
 	print('game_init.createCamera()')
-
 	local cam = plus:AddCamera(scn)
 	cam:SetName('game_camera')
 	cam:GetTransform():SetPosition(gs.Vector3(0,0,-75))
 
 	local ls = gs.LogicScript('camera_handler.lua')
 	cam:AddComponent(ls)
-end
 
-function game_init.createEnvironment(plus, scn)
+	--	level
 	print('game_init.createEnvironment()')
 
 	scn:Load('assets/levels/level_0.scn', gs.SceneLoadContext(plus:GetRenderSystem()))
 
-	while not scn:IsReady() do
-		plus:UpdateScene(scn, plus:UpdateClock())
-	end	
+	waitSceneReady(plus, scn)
 
-	-- plus:AddLight(scn, gs.Matrix4.Identity:LookAt(gs.Vector3(1,-1,0.5)), gs.Light.Model_Linear, 150.0, true)
-	-- plus:AddPhysicPlane(scn, gs.Matrix4.TransformationMatrix(gs.Vector3(0,-5,0), gs.Vector3()), 100, 100, 0.0) 
 	plus:ResetClock()
-end
 
-return game_init
+	return scn
+end
