@@ -1,2 +1,2 @@
-harfang_lua.exe main.lua
+lua.exe main.lua
 pause

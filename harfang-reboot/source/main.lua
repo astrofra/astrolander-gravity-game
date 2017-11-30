@@ -1,4 +1,5 @@
 -- main
+gs = require('harfang')
 
 require('common')
 require('game_globals')
@@ -17,7 +18,7 @@ plus:CreateWorkers()
 
 plus:RenderInit(g_screen_width, g_screen_height, "pkg.core")
 
-gui = gs.GetDearImGui()
+-- gui = gs.GetDearImGui()
 dt_sec = nil
 
 scn = gameInit(plus)
@@ -30,6 +31,8 @@ while not plus:IsAppEnded() do
 		if scn ~= nil then
 			plus:UpdateScene(scn, dt_sec)
 		end
+
+		-- require("lovebird").update()
 
 		plus:Flip()
 	end

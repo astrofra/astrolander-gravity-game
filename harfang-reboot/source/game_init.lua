@@ -12,7 +12,7 @@ function gameInit(plus)
 	local scn = plus:NewScene(true, true)
 
 	waitSceneReady(plus,scn)
-
+	
 	--	physics
 	scn:GetPhysicSystem():SetDebugVisuals(false)
 	scn:GetPhysicSystem():SetForceRigidBodyAxisLockOnCreation(gs.LockZ + gs.LockRotX + gs.LockRotY)
@@ -44,6 +44,8 @@ function gameInit(plus)
 	scn:Load('assets/levels/level_0.scn', gs.SceneLoadContext(plus:GetRenderSystem()))
 
 	waitSceneReady(plus, scn)
+
+	local start_node = scn:GetNode('start')
 
 	plus:ResetClock()
 
